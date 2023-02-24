@@ -40,9 +40,7 @@ jobs:
         # poetry export --only dev -f requirements.txt --output requirements_dev.txt
         # pip install -r requirements.txt
         # pip install -r requirements_dev.txt
-    - name: Lint with pylint
-      run: |
-        pylint $(git ls-files '*.py')
+    - uses: ricardochaves/python-lint@v1.4.0
     - name: Test with pytest
       run: |
         pytest
