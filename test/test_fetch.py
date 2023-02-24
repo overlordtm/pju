@@ -1,5 +1,5 @@
 import unittest
-import pju.fetch
+import pju
 import pandas as pd
 import vcr
 from pandas.api.types import is_integer_dtype, is_string_dtype, is_period_dtype
@@ -8,7 +8,7 @@ class TestFetch(unittest.TestCase):
 
     @vcr.use_cassette('test/fixtures/vcr_cassettes/test_fetch_payouts.yaml')
     def test_fetch_payouts(self):
-        df = pju.fetch.fetch_payouts()
+        df = pju.fetch_payouts()
         self.assertIsInstance(df, pd.DataFrame)
         self.assertIsInstance(df.index, pd.PeriodIndex)
         self.assertIsInstance(df.index.freq, pd.offsets.MonthEnd)
@@ -37,7 +37,7 @@ class TestFetch(unittest.TestCase):
 
     @vcr.use_cassette('test/fixtures/vcr_cassettes/test_fetch_payout_by_budget_user_group.yaml')
     def test_fetch_payout_by_budget_user_group(self):
-        df = pju.fetch.fetch_payout_by_budget_user_group(2018, 1)
+        df = pju.fetch_payout_by_budget_user_group(2018, 1)
         self.assertIsInstance(df, pd.DataFrame)
         self.assertEqual(len(df), 23)
 
@@ -64,7 +64,7 @@ class TestFetch(unittest.TestCase):
 
     @vcr.use_cassette('test/fixtures/vcr_cassettes/test_fetch_payout_by_budget_user.yaml')
     def test_fetch_payout_by_budget_user(self):
-        df = pju.fetch.fetch_payout_by_budget_user(2018, 1)
+        df = pju.fetch_payout_by_budget_user(2018, 1)
         self.assertIsInstance(df, pd.DataFrame)
         self.assertIsInstance(df.index, pd.MultiIndex)
         self.assertEqual(len(df), 1907)
@@ -93,7 +93,7 @@ class TestFetch(unittest.TestCase):
 
     @vcr.use_cassette('test/fixtures/vcr_cassettes/test_fetch_payouts_job_title.yaml')
     def test_fetch_payouts_job_title(self):
-        df = pju.fetch.fetch_payouts_job_title(2018, 1)
+        df = pju.fetch_payouts_job_title(2018, 1)
         self.assertIsInstance(df, pd.DataFrame)
         self.assertIsInstance(df.index, pd.MultiIndex)
         self.assertEqual(len(df), 33569)
