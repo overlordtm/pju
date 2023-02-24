@@ -188,7 +188,7 @@ def fetch_payouts_by_job_title(year: int, month: int) -> pd.DataFrame:
     df["job_title_id"] = df["job_title_id"].str.strip().astype(str)
     df.drop("group", axis=1, inplace=True)
     df.insert(0, "year_month", pd.to_datetime(f"{year}-{month}").to_period("M"))
-    df.set_index(["year_month", "job_title_id"], inplace=True)
+    df.set_index(["year_month", "job_title_id", "budget_user_id"], inplace=True)
 
     int_cols = ["employees", "gross_salary", "C", "D", "E", "F", "I", "J", "O"]
     df[int_cols] = df[int_cols].apply(
