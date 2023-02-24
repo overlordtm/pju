@@ -1,0 +1,692 @@
+interactions:
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/1_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:0. \r\nZ360:270\r\nA:254.925\r\nB:69.788\r\nC:37.267\r\nD:1.226\r\nE:4.849\r\nF:944\r\nG:8.559\r\nH:5.963\r\nI:41.941\r\nJ:1.692\r\nL:0\r\nN:0\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '127'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"7f-56efd8dde9710"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/2_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:1.1. \r\nZ360:931\r\nA:1.654.723\r\nB:442.089\r\nC:124.444\r\nD:20.362\r\nE:7.622\r\nF:4.017\r\nG:56.937\r\nH:38.700\r\nI:129.265\r\nJ:7.922\r\nL:0\r\nN:529\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '141'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"8d-56efd8de117b7"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/3_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:1.2.1. \r\nZ360:911\r\nA:1.314.316\r\nB:373.464\r\nC:121.686\r\nD:40.039\r\nE:8.115\r\nF:894\r\nG:60.625\r\nH:40.951\r\nI:126.559\r\nJ:23.800\r\nL:0\r\nN:485\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '142'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"8e-56efd8de1a071"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/4_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:1.2.2. \r\nZ360:27.881\r\nA:34.156.573\r\nB:10.094.994\r\nC:6.421.834\r\nD:717.943\r\nE:2.466.859\r\nF:35.427\r\nG:1.456.212\r\nH:1.243.726\r\nI:4.121.541\r\nJ:387.179\r\nL:0\r\nN:9.525\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '170'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"aa-56efd8de2215a"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/5_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:1.2.3. \r\nZ360:2.297\r\nA:2.618.558\r\nB:675.230\r\nC:252.680\r\nD:9.497\r\nE:6.261\r\nF:1.235\r\nG:110.620\r\nH:103.110\r\nI:270.637\r\nJ:48.518\r\nL:0\r\nN:0\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '145'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"91-56efd8de29a73"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/6_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:1.3. \r\nZ360:5.057\r\nA:6.861.623\r\nB:1.760.099\r\nC:735.676\r\nD:25.859\r\nE:16.073\r\nF:117\r\nG:273.430\r\nH:228.095\r\nI:622.602\r\nJ:35.708\r\nL:0\r\nN:837\r\nO:41.355\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '152'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"98-56efd8de3138d"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/7_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:2.1. \r\nZ360:5.290\r\nA:6.938.305\r\nB:1.364.014\r\nC:609.543\r\nD:175.009\r\nE:114.163\r\nF:12.630\r\nG:229.556\r\nH:212.473\r\nI:572.770\r\nJ:34.121\r\nL:0\r\nN:536\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '152'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"98-56efd8de38ca6"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/8_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:2.2. \r\nZ360:53\r\nA:58.959\r\nB:11.275\r\nC:4.902\r\nD:804\r\nE:1.042\r\nF:21\r\nG:3.928\r\nH:4.569\r\nI:5.396\r\nJ:0\r\nL:0\r\nN:0\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '118'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"76-56efd8de409a7"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/9_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:3.1. \r\nZ360:66.584\r\nA:85.703.378\r\nB:12.156.663\r\nC:7.381.903\r\nD:4.809.259\r\nE:590.480\r\nF:10.335\r\nG:2.720.015\r\nH:2.566.332\r\nI:7.635.998\r\nJ:797.028\r\nL:0\r\nN:15.701\r\nO:103.633\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '175'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"af-56efd8de47ed9"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/10_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:3.10. \r\nZ360:255\r\nA:291.499\r\nB:46.765\r\nC:25.939\r\nD:8.713\r\nE:5.926\r\nF:0\r\nG:7.223\r\nH:6.124\r\nI:22.689\r\nJ:618\r\nL:0\r\nN:0\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '126'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"7e-56efd8dd97e52"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/11_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:3.11. \r\nZ360:725\r\nA:771.998\r\nB:154.607\r\nC:311.468\r\nD:7.772\r\nE:50.471\r\nF:1.660\r\nG:15.241\r\nH:18.278\r\nI:93.169\r\nJ:7.861\r\nL:0\r\nN:0\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '137'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"89-56efd8dd9f76b"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/12_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:3.15. \r\nZ360:996\r\nA:1.647.386\r\nB:327.644\r\nC:137.955\r\nD:51.875\r\nE:12.721\r\nF:1.110\r\nG:53.681\r\nH:38.480\r\nI:128.143\r\nJ:3.713\r\nL:0\r\nN:55\r\nO:1.208\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '146'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"92-56efd8dda7c3d"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/13_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:3.2. \r\nZ360:37.419\r\nA:46.445.037\r\nB:11.177.395\r\nC:6.867.069\r\nD:1.006.209\r\nE:6.443.052\r\nF:15.834\r\nG:1.859.721\r\nH:1.839.935\r\nI:5.195.094\r\nJ:417.164\r\nL:0\r\nN:702\r\nO:1.729.464\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '176'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"b0-56efd8ddaf93e"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/14_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:3.3. \r\nZ360:13.603\r\nA:11.660.452\r\nB:2.509.477\r\nC:2.418.779\r\nD:127.786\r\nE:73.339\r\nF:2.422\r\nG:602.813\r\nH:694.787\r\nI:1.356.643\r\nJ:99.650\r\nL:0\r\nN:185\r\nO:673\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '158'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"9e-56efd8ddb7a27"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/15_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:3.4. \r\nZ360:6.926\r\nA:9.350.349\r\nB:1.610.399\r\nC:1.055.309\r\nD:91.645\r\nE:61.325\r\nF:8.098\r\nG:250.055\r\nH:232.785\r\nI:874.405\r\nJ:94.125\r\nL:0\r\nN:14.766\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '154'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"9a-56efd8ddc0e99"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/16_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:3.5. \r\nZ360:2.772\r\nA:4.247.235\r\nB:749.411\r\nC:353.995\r\nD:66.201\r\nE:50.295\r\nF:4.546\r\nG:85.318\r\nH:46.922\r\nI:366.054\r\nJ:14.228\r\nL:0\r\nN:4.148\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '147'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"93-56efd8ddcaadb"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/17_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:3.6. \r\nZ360:1.642\r\nA:2.081.778\r\nB:378.411\r\nC:202.853\r\nD:10.500\r\nE:13.174\r\nF:2.258\r\nG:47.569\r\nH:49.596\r\nI:249.274\r\nJ:28.235\r\nL:0\r\nN:0\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '143'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"8f-56efd8ddd23f4"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/18_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:3.7. \r\nZ360:253\r\nA:349.035\r\nB:59.147\r\nC:29.064\r\nD:1.484\r\nE:468\r\nF:332\r\nG:5.165\r\nH:8.974\r\nI:33.704\r\nJ:1.154\r\nL:0\r\nN:0\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '127'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"7f-56efd8ddda0f5"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/19_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:3.9. \r\nZ360:198\r\nA:277.103\r\nB:46.509\r\nC:16.615\r\nD:9.036\r\nE:2.757\r\nF:112\r\nG:6.388\r\nH:3.808\r\nI:23.666\r\nJ:2.899\r\nL:0\r\nN:0\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '129'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"81-56efd8dde1a0f"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/20_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:4.1. \r\nZ360:2.810\r\nA:3.622.602\r\nB:747.688\r\nC:307.551\r\nD:32.112\r\nE:8.412\r\nF:1.888\r\nG:123.655\r\nH:130.156\r\nI:386.164\r\nJ:47.422\r\nL:0\r\nN:287\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '146'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"92-56efd8ddf0c41"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/21_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:4.2. \r\nZ360:282\r\nA:404.227\r\nB:84.350\r\nC:33.090\r\nD:13.402\r\nE:0\r\nF:283\r\nG:9.695\r\nH:13.778\r\nI:30.722\r\nJ:1.076\r\nL:0\r\nN:0\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '127'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"7f-56efd8ddfa0b3"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/22_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:4.3. \r\nZ360:119\r\nA:167.115\r\nB:34.545\r\nC:14.231\r\nD:4.024\r\nE:6.526\r\nF:400\r\nG:3.672\r\nH:4.600\r\nI:14.447\r\nJ:66\r\nL:0\r\nN:0\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '126'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"7e-56efd8de01db4"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - pju/0.0.1
+    method: GET
+    uri: http://www.pportal.gov.si/ISPAP_2018/1_2018/POD/23_POD_VSOTE_VRST1.txt
+  response:
+    body:
+      string: "POD:6.1. \r\nZ360:34\r\nA:43.227\r\nB:9.547\r\nC:6.501\r\nD:714\r\nE:270\r\nF:0\r\nG:1.343\r\nH:0\r\nI:3.608\r\nJ:0\r\nL:0\r\nN:0\r\nO:0\r\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '110'
+      Content-Type:
+      - text/plain
+      Date:
+      - Thu, 23 Feb 2023 16:59:41 GMT
+      ETag:
+      - '"6e-56efd8de09ab6"'
+      Last-Modified:
+      - Tue, 19 Jun 2018 12:09:29 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+version: 1
