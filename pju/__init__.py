@@ -29,7 +29,7 @@ def fetch_payouts() -> pd.DataFrame:
 
     return df
 
-def fetch_payout_by_budget_user_group(year: int, month: int) -> pd.DataFrame:
+def fetch_payouts_by_budget_user_group(year: int, month: int) -> pd.DataFrame:
     data = []
 
     for i in range(1, 24):
@@ -44,7 +44,7 @@ def fetch_payout_by_budget_user_group(year: int, month: int) -> pd.DataFrame:
     df = df.apply(lambda col: col.str.replace(".", "", regex=False).astype(int), axis=1)
     return df
 
-def fetch_payout_by_budget_user(year: int, month: int) -> pd.DataFrame:
+def fetch_payouts_by_budget_user(year: int, month: int) -> pd.DataFrame:
     COLS = ["group_id", "budget_user_id", "budget_user_name", "employees", "gross_salary", "NA1", "C", "NA2", "D", "NA3", "E", "NA4", "NA5","NA6", "I", "NA7", "J", "NA8", "O", "NA9"]
     r = http.request("GET",  f"{BASE_URL}/ISPAP_{year}/{month}_{year}/PU/PU_POVPRECJE_{month}.txt")
 
@@ -61,7 +61,7 @@ def fetch_payout_by_budget_user(year: int, month: int) -> pd.DataFrame:
 
     return df
 
-def fetch_payouts_job_title(year: int, month: int) -> pd.DataFrame:
+def fetch_payouts_by_job_title(year: int, month: int) -> pd.DataFrame:
     COLS = ["group", "budget_user_id", "budget_user_name", "job_title_id", "job_title" ,"employees","gross_salary","C","D","E","F","I","J","O"]
     r = http.request("GET",  f"{BASE_URL}/ISPAP_{year}/{month}_{year}/DM/DM_VSI_BRUTOPLACA{month}.txt")
 

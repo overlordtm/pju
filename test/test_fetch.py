@@ -36,8 +36,8 @@ class TestFetch(unittest.TestCase):
         self.assertEqual(row['O'], 2420457)
 
     @vcr.use_cassette('test/fixtures/vcr_cassettes/test_fetch_payout_by_budget_user_group.yaml')
-    def test_fetch_payout_by_budget_user_group(self):
-        df = pju.fetch_payout_by_budget_user_group(2018, 1)
+    def test_fetch_payouts_by_budget_user_group(self):
+        df = pju.fetch_payouts_by_budget_user_group(2018, 1)
         self.assertIsInstance(df, pd.DataFrame)
         self.assertEqual(len(df), 23)
 
@@ -63,11 +63,17 @@ class TestFetch(unittest.TestCase):
 
 
     @vcr.use_cassette('test/fixtures/vcr_cassettes/test_fetch_payout_by_budget_user.yaml')
-    def test_fetch_payout_by_budget_user(self):
-        df = pju.fetch_payout_by_budget_user(2018, 1)
+    def test_fetch_payouts_by_budget_user(self):
+        df = pju.fetch_payouts_by_budget_user(2018, 1)
         self.assertIsInstance(df, pd.DataFrame)
         self.assertIsInstance(df.index, pd.MultiIndex)
         self.assertEqual(len(df), 1907)
+
+        for col in ['group_name', 'group_id', 'budget_user_name']:
+            self.assertTrue(is_string_dtype(df[col]), f'{col} is not a string dtype')
+
+        for col in ['employees', 'C', 'D', 'E', 'I', 'J', 'O']:
+            self.assertTrue(is_integer_dtype(df[col]), f'{col} is not an integer dtype')
 
         row = df.iloc[0]
         self.assertEqual(row['group_id'], '0.')
@@ -92,11 +98,17 @@ class TestFetch(unittest.TestCase):
 
 
     @vcr.use_cassette('test/fixtures/vcr_cassettes/test_fetch_payouts_job_title.yaml')
-    def test_fetch_payouts_job_title(self):
-        df = pju.fetch_payouts_job_title(2018, 1)
+    def test_fetch_payouts_by_job_title(self):
+        df = pju.fetch_payouts_by_job_title(2018, 1)
         self.assertIsInstance(df, pd.DataFrame)
         self.assertIsInstance(df.index, pd.MultiIndex)
         self.assertEqual(len(df), 33569)
+
+        for col in ['group_name', 'group_id', 'budget_user_name', 'job_title']:
+            self.assertTrue(is_string_dtype(df[col]), f'{col} is not a string dtype')
+
+        for col in ['employees', 'C', 'D', 'E', 'F', 'I', 'J', 'O']:
+            self.assertTrue(is_integer_dtype(df[col]), f'{col} is not an integer dtype')
 
         row = df.iloc[0]
         self.assertEqual(row['group_id'], '0.')
