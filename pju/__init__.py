@@ -183,8 +183,9 @@ def fetch_payouts_by_job_title(year: int, month: int) -> pd.DataFrame:
         json.loads(html.unescape(r.data.decode("iso-8859-2")))["aaData"], columns=COLS
     )
     df[["group_id", "group_name"]] = df["group"].str.split(" ", n=1, expand=True)
-    df["job_title_id"] = df["job_title_id"].str.strip().astype(str)
     df["group_id"] = df["group_id"].str.strip().astype(str)
+    df["group_name"] = df["group_name"].str.strip().astype(str)
+    df["job_title_id"] = df["job_title_id"].str.strip().astype(str)
     df.drop("group", axis=1, inplace=True)
     df.insert(0, "year_month", pd.to_datetime(f"{year}-{month}").to_period("M"))
     df.set_index(["year_month", "job_title_id"], inplace=True)
